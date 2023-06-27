@@ -1,5 +1,4 @@
 * {
-    /*outline: 1px dotted red;*/
     margin: 0;
     padding: 0;
 }
@@ -80,4 +79,42 @@ h1 {
 
 }
 
+.info-container {
+    background-color: rgb(243, 243, 242);;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.placeholder p {
+    width: 210px;
+    text-align: center;
+}
+
+.img {
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    padding: 100px;
+    margin-top: 10px;
+}
 
