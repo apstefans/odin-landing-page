@@ -80,7 +80,7 @@ h1 {
 }
 
 .info-container {
-    background-color: rgb(243, 243, 242);;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -118,3 +118,67 @@ h2 {
     margin-top: 10px;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    margin: 100px 350px;
+}
+
+.quote .thor {
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    background-color: #3882F6;
+    display: flex;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px;
+    gap: 80px;
+}
+
+.action-text .action {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.action-text .signup {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.bottom-button {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-button button {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #3882F6;
+    padding: 10px 15px;
+}
